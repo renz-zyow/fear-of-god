@@ -1,0 +1,95 @@
+body {
+    display: block;
+    overflow-x: hidden;
+    background:#fff0db ;
+}
+
+nav {
+    background-color: #A0937D;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+}
+
+nav ul li a {
+    color: #eed9c4;
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+nav ul li a:hover {
+    color: #eed9c4;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    font-weight: 310;
+}
+
+#hero .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-col {
+    justify-content: flex-end;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#hero img {
+    max-width: 80% !important;
+    width: 100%;
+}
+
+#hero .card {
+    box-shadow: 20px 10px 20px grey;
+    border:0;
+    text-align: center;
+    background: #faf8f6;
+}
+
+#hero .icon {
+     width: 100px;
+     height: 60px;
+     margin-bottom: 10px;
+}
+
+#projects .projects {
+    margin-top: -60px;
+    margin-bottom: 40px;
+}
+
+
+#contact {
+    text-align: center;
+    background-color:#A0937D;
+    color: black;
+}
+
+#contact h1 {
+    text-align: center;
+    color: black;
+}
